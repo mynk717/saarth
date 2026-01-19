@@ -41,7 +41,7 @@ export default function PopularDestinations() {
     {
       name: 'Goa',
       country: 'India',
-      image: 'https://images.unsplash.com/photo-1587622083854-91050b8da707?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
       price: '₹20,000',
       description: 'Sun, Sand & Party'
     },
