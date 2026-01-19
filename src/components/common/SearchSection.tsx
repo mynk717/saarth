@@ -47,7 +47,7 @@ export default function SearchSection() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`flex items-center space-x-2 px-6 py-3 rounded-lg font-semibold transition-all ${
                   activeTab === tab.id
-                    ? 'bg-blue-600 text-white shadow-md'  // ✅ Fixed
+                    ? 'bg-gradient-to-r from-primary-500 to-secondary-500 text-white shadow-md'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >

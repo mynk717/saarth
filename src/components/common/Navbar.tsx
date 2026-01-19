@@ -21,11 +21,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="h-10 w-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+            <div className="h-10 w-10 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
               <Plane className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-blue-700">Saarth Holidays</h1>
+              <h1 className="text-2xl font-bold text-primary-600">Saarth Holidays</h1>
               <p className="text-xs text-gray-600">Chhattisgarh&apos;s Best Travel Agency</p>
             </div>
           </Link>
@@ -36,7 +36,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
               >
                 {link.name}
               </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="block py-2 text-gray-700 hover:text-blue-600"
+                className="block py-2 text-gray-700 hover:text-primary-600"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}

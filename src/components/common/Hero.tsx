@@ -4,7 +4,7 @@ import { Plane, Globe, MapPin } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <div className="relative bg-gradient-to-r from-primary-600 to-primary-800 text-gray-900">
+    <div className="relative bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -15,7 +15,7 @@ export default function Hero() {
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Chhattisgarh se Duniya Tak 🌍
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-primary-100">
+          <p className="text-xl md:text-2xl mb-8 text-white/90">
             Amsterdam, Ayodhya, Kerala - Wherever you dream, we make it happen!
           </p>
           
@@ -24,21 +24,21 @@ export default function Hero() {
               <Plane className="h-8 w-8" />
               <div className="text-left">
                 <p className="text-3xl font-bold">500+</p>
-                <p className="text-primary-100">Destinations</p>
+                <p className="text-white/80">Destinations</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
               <Globe className="h-8 w-8" />
               <div className="text-left">
                 <p className="text-3xl font-bold">5000+</p>
-                <p className="text-primary-100">Happy Travelers</p>
+                <p className="text-white/80">Happy Travelers</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="h-8 w-8" />
               <div className="text-left">
                 <p className="text-3xl font-bold">Raipur</p>
-                <p className="text-primary-100">Based in CG</p>
+                <p className="text-white/80">Based in CG</p>
               </div>
             </div>
           </div>
