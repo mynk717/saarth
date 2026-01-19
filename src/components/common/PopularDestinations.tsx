@@ -13,42 +13,42 @@ export default function PopularDestinations() {
     {
       name: 'Amsterdam',
       country: 'Netherlands',
-      image: '/images/amsterdam.jpg',
+      image: 'https://source.unsplash.com/800x600/?amsterdam,canal',
       price: '₹1,50,000',
       description: 'Canals, Museums & Tulips'
     },
     {
       name: 'Ayodhya',
       country: 'India',
-      image: '/images/ayodhya.jpg',
+      image: 'https://source.unsplash.com/800x600/?ayodhya,temple',
       price: '₹25,000',
       description: 'Spiritual Journey'
     },
     {
       name: 'Kerala',
       country: 'India',
-      image: '/images/kerala.jpg',
+      image: 'https://source.unsplash.com/800x600/?kerala,backwaters',
       price: '₹35,000',
       description: 'Backwaters & Beaches'
     },
     {
       name: 'Dubai',
       country: 'UAE',
-      image: '/images/dubai.jpg',
+      image: 'https://source.unsplash.com/800x600/?dubai,burj-khalifa',
       price: '₹80,000',
       description: 'Luxury & Adventure'
     },
     {
       name: 'Goa',
       country: 'India',
-      image: '/images/goa.jpg',
+      image: 'https://source.unsplash.com/800x600/?goa,beach',
       price: '₹20,000',
       description: 'Sun, Sand & Party'
     },
     {
       name: 'Thailand',
       country: 'Thailand',
-      image: '/images/thailand.jpg',
+      image: 'https://source.unsplash.com/800x600/?thailand,phuket',
       price: '₹60,000',
       description: 'Temples & Islands'
     },
@@ -70,10 +70,11 @@ export default function PopularDestinations() {
           {destinations.map((destination, index) => (
             <div key={index} className="card overflow-hidden cursor-pointer group">
               <div className="relative h-48 bg-gray-200 rounded-lg overflow-hidden mb-4">
-                {/* Placeholder - replace with actual images */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center">
-                  <MapPin className="h-16 w-16 text-white opacity-50" />
-                </div>
+                <img 
+                  src={destination.image} 
+                  alt={destination.name}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity" />
               </div>
               
@@ -83,10 +84,10 @@ export default function PopularDestinations() {
               <p className="text-gray-600 mb-2">{destination.country}</p>
               <p className="text-sm text-gray-500 mb-4">{destination.description}</p>
               <div className="flex justify-between items-center">
-                <span className="text-primary-600 font-bold text-xl">
+                <span className="text-blue-600 font-bold text-xl">
                   Starting {destination.price}
                 </span>
-                <button className="text-primary-600 font-semibold hover:text-primary-700">
+                <button className="text-blue-600 font-semibold hover:text-blue-700">
                   View Details →
                 </button>
               </div>
