@@ -22,7 +22,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="h-10 w-10 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
-              <Plane className="h-6 w-6 text-white" />
+            <img src="/SaarthIcon.png" alt="Logo" className="h-auto w-auto" />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-primary-600">Saarth Holidays</h1>

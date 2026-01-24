@@ -24,7 +24,7 @@ export default function PackagesPage() {
       destination: 'Amsterdam, Netherlands',
       duration: '7 Days / 6 Nights',
       price: 150000,
-      image: 'https://source.unsplash.com/800x600/?amsterdam,canal',
+      image: 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800&h=600&fit=crop',
       rating: 4.8,
       reviews: 234,
       highlights: ['Canal Cruise', 'Van Gogh Museum', 'Keukenhof Gardens', 'Anne Frank House']
@@ -35,7 +35,7 @@ export default function PackagesPage() {
       destination: 'Ayodhya, India',
       duration: '3 Days / 2 Nights',
       price: 25000,
-      image: 'https://source.unsplash.com/800x600/?ayodhya,temple',
+      image: 'https://images.unsplash.com/photo-1609920658906-8223bd289001?w=800&h=600&fit=crop',
       rating: 4.9,
       reviews: 567,
       highlights: ['Ram Mandir', 'Hanuman Garhi', 'Saryu Aarti', 'Kanak Bhawan']
@@ -46,7 +46,7 @@ export default function PackagesPage() {
       destination: 'Kerala, India',
       duration: '5 Days / 4 Nights',
       price: 35000,
-      image: 'https://source.unsplash.com/800x600/?kerala,backwaters',
+      image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop',
       rating: 4.7,
       reviews: 432,
       highlights: ['Houseboat Stay', 'Munnar Tea Gardens', 'Alleppey', 'Fort Kochi']
@@ -57,7 +57,7 @@ export default function PackagesPage() {
       destination: 'Dubai, UAE',
       duration: '5 Days / 4 Nights',
       price: 80000,
-      image: 'https://source.unsplash.com/800x600/?dubai,burj-khalifa',
+      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&h=600&fit=crop',
       rating: 4.9,
       reviews: 789,
       highlights: ['Burj Khalifa', 'Desert Safari', 'Dubai Mall', 'Palm Jumeirah']
@@ -68,7 +68,7 @@ export default function PackagesPage() {
       destination: 'Goa, India',
       duration: '4 Days / 3 Nights',
       price: 20000,
-      image: 'https://source.unsplash.com/800x600/?goa,beach',
+      image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop',
       rating: 4.6,
       reviews: 654,
       highlights: ['Beach Hopping', 'Water Sports', 'Nightlife', 'Portuguese Forts']
@@ -79,7 +79,7 @@ export default function PackagesPage() {
       destination: 'Thailand',
       duration: '6 Days / 5 Nights',
       price: 60000,
-      image: 'https://source.unsplash.com/800x600/?thailand,beach',
+      image: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&h=600&fit=crop',
       rating: 4.8,
       reviews: 876,
       highlights: ['Phi Phi Islands', 'Grand Palace', 'Floating Market', 'Thai Massage']

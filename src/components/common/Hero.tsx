@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import { Plane, Globe, MapPin } from 'lucide-react'
+import { Plane, Globe, MapPin, Globe2Icon } from 'lucide-react'
 
 export default function Hero() {
   return (
@@ -13,7 +13,7 @@ export default function Hero() {
           className="text-center"
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Chhattisgarh se Duniya Tak 🌍
+            Chhattisgarh se Duniya Tak <Globe2Icon className="h-12 w-12 inline-block blue" />
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90">
             Amsterdam, Ayodhya, Kerala - Wherever you dream, we make it happen!
